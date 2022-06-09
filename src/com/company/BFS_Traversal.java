@@ -33,8 +33,8 @@ public class BFS_Traversal {
         ArrayList<Integer> bfs = new ArrayList<>();
         Queue<Integer> q = new LinkedList<>();
         boolean [] b = new boolean[v+1];
-        q.add(0);
-        b[0] = true;
+        q.add(1);
+        b[1] = true;
         while (!q.isEmpty()){
             int i = q.poll();
             bfs.add(i);
